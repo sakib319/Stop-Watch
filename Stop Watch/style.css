@@ -1,0 +1,27 @@
+body{
+  background: black;
+  color:white;
+}
+
+.container{
+  display: flex;
+  
+  align-items: center;
+  flex-direction: column;
+min-height: 100vh;
+}
+
+div{
+  margin: 5px;
+  font-size: 50px;
+}
+
+button{
+  background: var(--clr);
+  height: 70px;
+  padding: 5px;
+  width:70px;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+}
